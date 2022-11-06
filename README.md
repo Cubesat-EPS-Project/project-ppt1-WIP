@@ -1,1 +1,1 @@
-# project-ppt1-WIP
+# seminar-ppt-WIP
