@@ -1,10 +1,6 @@
 \babel@toc {english}{}\relax 
-\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
-\beamer@sectionintoc {2}{Objective}{4}{0}{2}
-\beamer@sectionintoc {3}{Dynamic/Rheostatic Braking}{5}{0}{3}
-\beamer@sectionintoc {4}{Commonly used Energy Storage Mechanisms}{7}{0}{4}
-\beamer@sectionintoc {5}{HESS Architecture}{8}{0}{5}
-\beamer@sectionintoc {6}{Power Flow}{14}{0}{6}
-\beamer@sectionintoc {7}{Modes of Operation}{16}{0}{7}
-\beamer@sectionintoc {8}{Advantages and Disadvantages}{22}{0}{8}
-\beamer@sectionintoc {9}{Conclusion}{23}{0}{9}
+\beamer@sectionintoc {1}{Objectives}{3}{0}{1}
+\beamer@sectionintoc {2}{Project Outline}{4}{0}{2}
+\beamer@sectionintoc {3}{System Architecture}{6}{0}{3}
+\beamer@sectionintoc {4}{Methodology}{7}{0}{4}
+\beamer@sectionintoc {5}{Requirements}{8}{0}{5}

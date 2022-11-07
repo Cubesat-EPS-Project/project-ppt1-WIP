@@ -96,14 +96,12 @@
   
 \begin{document}
 	%\author{}
-	\title{DESIGN AND IMPLEMENTATION OF
-		CUBESAT ELECTRICAL POWER
-		SYSTEM}
+	\title{Power Distribution System for a CubeSat}
 	
 	\subtitle{}
 	%\logo{}
-     \author{Presented by :\\Naveen A.B. | TRV19EE038}
-      \author{Presented by :\\Naveen A.B. | TRV19EE038}
+     \author{Presented by :\\Ansaf Niyaz | TRV19EE016 \and \\Govind Murali | TRV19EE025  \and\\Jijesh J. Kumar | TRV19EE029  \and \\Naveen A.B. | TRV19EE038}
+     
 	\institute{GEC Barton Hill,Thiruvananthapuram}
 	\date{\today}
 	
@@ -121,9 +119,9 @@
 }
 	\begin{frame}[plain]
 	\maketitle
-	\center{{Guided by: Prof. Simi Raj}}
+	\center{Guided by: Prof. Simi Raj}
 %	\center{{SEMINAR PRESENTATION}}
-\end{frame}
+-\end{frame}
 
 
 \begin{frame}
@@ -136,27 +134,12 @@
 \end{frame}
 
 
-\section{Introduction}
-\begin{frame}{Introduction}
-	
-	\begin{itemize}
-		\item Form factor of
-		of 10 cm cube
-		\item  Cost-effective, timely and relatively easy to accomplish
-		\item  The Electrical Power System (EPS) is an electronic circuit board that is designed supply and manage energy to the Cubesat subsystems.
 
-
-		
-	\end{itemize} 
-	
-\end{frame}
-
-
-\section{Objective}
+\section{Objectives}
 \begin{frame}
 	
 \frametitle{Objective}
- To design and implement a power generation, storage and distribution system for a CubeSat 
+ To design and implement a fully autonomous power generation, storage and distribution system for a CubeSat 
  
  
 
@@ -165,378 +148,102 @@
 
 
 
-\section{Dynamic/Rheostatic Braking}
+\section{Project Outline}
 
 \begin{frame}
-	\frametitle{Dynamic/Rheostatic Braking}
+	\frametitle{Project Outline	}
+	CubeSat:
 	\begin{itemize}
-		\item Works on the principle of reversibility of electrical machines
-		\item Traction motors are switched into generator mode
-		\item Power from braking is dissipated as heat in brake grid choppers or
-		resistors
-		\item Thus, the kinetic energy of the rolling stock is converted to heat energy
-
-		
-	\end{itemize}
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Dynamic/Rheostatic Braking (Contd.)}
-	Pros:
-	\begin{itemize}
-		\item Reduction of wear and tear of brake shoes and wheels
-		\item Lesser chance of brake fade
-		\item Speed control on downgrades
-		\item Very short response time
-		
-	\end{itemize}
-Cons:
-	\begin{itemize}
-		\item Wasted power is about 10–30\% of the total
-		locomotive energy usage \cite{p4}
-	\item Large cooling fans necessary for thermal protection
-	\item Excessive heat may damage or disable the resistors
-	\item Ineffective at very low speeds
 	
-\end{itemize}
+	\item Dimensions-10x10x10 cm 
+	\item Weight-2 kg.
+	\end{itemize}
+	\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+		\begin{column}{0.45\textwidth} % Left column width
+			\begin{figure}
+				\includegraphics[width=1\linewidth]{solarRooftopGov.png}
+				\caption{NPRS Webpage}
+			\end{figure}
+		\end{column}
+		\begin{column}{0.5\textwidth} % Right column width
+			\begin{figure}
+				\includegraphics[width=1\linewidth]{solarRooftopGov.png}
+				\caption{NPRS Webpage}
+			\end{figure}
+			
+		\end{column}
+	\end{columns}
+ \end{frame}
+
+
+\begin{frame}
+	\frametitle{Project Outline (Contd.)}
+ 	Electrical Power System (EPS):
+ 	\begin{itemize}
+ 		
+ 		\item Harvests energy from the solar panels.
+ 		\item Manages power storage and distribution.
+ 		\item Redundant architecture.
+ 	\end{itemize}
 \end{frame}
 
 
-\section{Commonly used Energy Storage Mechanisms}
-\begin{frame}{Commonly used Energy Storage Mechanisms}
+\section{System Architecture}
+\begin{frame}{System Architecture}
 	
 	
 	\begin{enumerate}
-		\item Electric: Regenerated energy is stored in electrical storage devices
-		such as batteries and super capacitors
-		\item Hydraulic/Pneumatic: Energy is converted into internal energy of a
-		liquid or compressed gas or a vacuum
-		\item Mechanical: Energy is stored in the form of mechanical energy of
-		rotation or translational motion
+		\item Block Diagram
 	\end{enumerate}
 	
 	
 \end{frame}
 
-\section{HESS Architecture}
-\begin{frame}{HESS Architecture}
-		\begin{figure}
-		\includegraphics[width=12.999cm]{hess.png}
-	\caption{HESS Architecture (Source: Ref. \cite{p1})}
-		\label{fig:hess}
-		
-	\end{figure}
-\end{frame}
+\section{Methodology}
+
 	
 	
 	
 	
 
-\begin{frame}{HESS Architecture: Power Generation System}
-	\begin{minipage}{0.5\textwidth}
+\begin{frame}{Methodology}
 		\begin{itemize}
 			
-			\item Main (MG) and Auxiliary generator (AG) coupled to diesel engine shaft
+			\item Identifying the power requirements.
 
-			\item MG output is rectified for powering DC Traction motors
-			\item AG produces a 3-phase AC output
-			\item AG output powers compressors, blowers, sanding systems, etc. (20\% FL)
+			\item Forming Specifications.
+			\item Architecture design and topology selection.
+			\item Design and simulation.
+			\item Procurement of components
+			\item Frabication and testing.
+			
+		\end{itemize} 
+	
+\end{frame}
+
+
+\section{Requirements}
+\begin{frame}{Requirements}
+	\begin{minipage}{0.5\textwidth}
+		Equipments Requirements
+		\begin{itemize}
+			
+			\item SMD Soldering Station
+			\item DSO
+			\item Power Supply, Function Generator
 		\end{itemize} 
 	\end{minipage}
 	\begin{minipage}{0.3\textwidth}
-		\begin{figure}[h]
-			\centering
-			\includegraphics[width=6.7cm]{powgen.png}
-			
-			
-		
-			\label{fig:pow1}
-			
-		\end{figure}
-	\end{minipage}
-\end{frame}
-
-
-
-\begin{frame}{HESS Architecture: Traction and Braking System}
-	\begin{minipage}{0.5\textwidth}
-		
+		Software Requirements
 		\begin{itemize}
 			
-			\item DC motor is used for traction
-			\item $R_{DB}$ - Dynamic Brake grid resistance
-			\item $S_{T}$ - Traction Motor switch
-			\item $S_{DB}$ - Dynamic Brake switch
-			\item $S_{RB}$ - Regenerative Brake switch
+			\item MATLAB/Spice
+			\item KiCad
+			\item STM32 CubeIDE
+			
 		\end{itemize} 
+		
 	\end{minipage}
-	\begin{minipage}{0.3\textwidth}
-		
-		\begin{figure}
-			\includegraphics[width=6.5cm]{tracn.png}
-			\begin{center}
-			\caption{Traction and Braking diagram}
-		\end{center}
-			\label{fig:trac2}
-			
-		\end{figure}
-	
-	\end{minipage}
-\end{frame}
-
-
-
-
-\begin{frame}{HESS Architecture: Energy Processing}
-
-		\begin{itemize}
-			
-			\item Li-ion batteries and super capacitors act as energy storage
-			\item SCs take away all peak loads from the battery
-
-		\end{itemize} 
-
-
-		\begin{figure}
-			\includegraphics[width=8.5cm]{pewer.png}
-			\caption{Energy Storage and Conversion\footnote{IEEE Transactions on Industrial Electronics, VOL. 68, NO. 10, OCTOBER 2021; pp. 9083
-					\cite{p1}	}}
-			\label{fig:ss42}
-			
-		\end{figure}
-
-\end{frame}
-
-\begin{frame}{HESS Architecture: Energy Processing (Contd.)}
-	
-	\begin{itemize}
-		
-		\item Two DAB converters connected in input series output parallel fashion
-		\item The DABs feeds regenerated energy into a common DC bus
-		
-		
-		
-		
-	\end{itemize} 
-	\begin{minipage}{0.5\textwidth}
-		\begin{center}
-	
-	\begin{figure}
-	\includegraphics[width=6.8cm]{dab.png}
-	\begin{center}
-		\caption{Dual Active Bridge (Source: Ref. \cite{p5})}
-	\end{center}
-	\label{fig:dab}
-	
-\end{figure}
-\end{center}
-\end{minipage}
-\begin{minipage}{0.4\textwidth}
-	
-	
-	\begin{figure}
-		\includegraphics[width=4.4cm]{isop.png}
-		\begin{center}
-			\caption{ISOP configuration (Source: Ref. \cite{p5})}
-		\end{center}
-		\label{fig:isop}
-		
-	\end{figure}
-	
-\end{minipage}
-\end{frame}
-
-\begin{frame}{HESS Architecture: Energy Processing Contd.)}
-	
-	\begin{itemize}
-		
-		\item Bidirectional non-isolated dc–dc converters are used to charge and discharge the batteries
-		\item Decoupling between batteries, SCs, and the dc bus allows
-		both storage devices to operate at a wider range of SoC\footnote{State of Charge}
-		\item Volumetric efficiency of HESS is thus improved
-		\item 3-$\Phi$ 2-level VSI with passively damped LCL filter is used to transfer power from DC bus to AC aux loads.
-	\end{itemize} 
-	
-
-	
-\end{frame}
-
-
-\section{Power Flow}
-\begin{frame}{Power Flow}
-	
-	\begin{itemize}
-		\item  Generated power must always be equal
-		to the demanded power to ensure the system stability
-	\end{itemize} 
-\begin{block}{Power Flow Equation}
-	\label{Pewer flow}
-	On neglecting system losses,
-		\begin{equation}
-			P_{reg} + P_{gen} - P_{L} \pm P_{HESS} = 0
-		\end{equation}
-	\begin{itemize}
-
-				\item $P_{reg}$ - Power regenerated from dynamic braking
-	\item $P_{gen}$ - Power supplied by the diesel generator
-	\item $P_{L}$ -  Power demanded by the locomotive auxiliary loads
-	\item $P_{HESS}$ - Power available in the HESS
-\end{itemize}	
-\end{block}	
-	
-	
-\end{frame}
-
-
-
-\begin{frame}
-	\frametitle{Power Flow (Contd.)}
-	\begin{itemize}
-		\item The regenerated
-		power is used primarily by the loads during braking, while the
-		surplus is stored
-		\item If the HESS\footnote{HESS: Hybrid
-			Energy Storage System} is fully charged, the control strategy must reduce
-		$P_{reg}$ until it matches the load demand
-		\item If the HESS reaches its minimum
-		SoC, the load is to be fed by the regenerated power
-		or the diesel generator
-	\end{itemize}
-\end{frame}
-
-
-
-
-\section{Modes of Operation}
-\begin{frame}{Modes of Operation}
-	\label{frame:modes}
-	\begin{figure}
-		\includegraphics[width=12.999cm]{hess.png}
-		\caption{HESS Architecture (Source: Ref.  \cite{p1})}
-		\label{fig:hess2}
-		
-	\end{figure}
-\hyperlink{frame:mode1}{1}, \hyperlink{frame:mode2}{2}, \hyperlink{frame:mode3}{3}, \hyperlink{frame:mode4}{4}, \hyperlink{frame:mode5}{5}
-\end{frame}
-
-\begin{frame}
-	\frametitle{Modes of Operation: Mode 1 - Under-voltage Protection}
-	\label{frame:mode1}
-	\begin{itemize}
-		
-		\item When the auxiliary load demand exceeds the discharge
-		capacity of the batteries
-		\item DAB ISOP converter does not regenerate power to the dc bus (not braking)
-		\begin{center}
-			
-
-		
-	 \begin{equation}{\therefore P_{gen}  + P_{HESS} = P_{L}}\end{equation}
-
-\end{center}
-	\end{itemize}
-	
-\end{frame}
-
-
-
-\begin{frame}
-	\frametitle{Modes of Operation: Mode 2 - Discharging}
-	\label{frame:mode2}
-	\begin{itemize}
-		\item  \hyperlink{frame:modes}{Entire auxiliary load is supplied only by the HESS or with the aid of regenerated power}
-		\item Auxiliary generator provides the reactive power required by the load
- 	\begin{equation}{\therefore P_{reg} + P_{HESS} = P_{L}}\end{equation}
-	\begin{equation} {Or, P_{HESS} \geq P_{L}} \end{equation}
-		
-	\end{itemize}
-	
-\end{frame}
-
-
-
-
-\begin{frame}
-	\frametitle{Modes of Operation: Mode 3 - Inverter}
-	\label{frame:mode3}
-	\begin{itemize}
-		\item \hyperlink{frame:modes}{Auxiliary loads absorb all the regenerated
-			power}
-		\item  HESS	does not operate/charge
-		\item The dc bus voltage is regulated by the discharging storage system
-		\item A portion of this power is used to recharge
-		only the SCs
-	\begin{equation}	 {\therefore P_{reg} = P_{L} + P_{SC}} \end{equation}
-		
-	\begin{equation}	Or,{P_{reg} = P_{L}}  \end{equation}
-		
-	\end{itemize}
-	
-\end{frame}
-
-\begin{frame}
-	\frametitle{Modes of Operation: Mode 4 - HESS Charging}
-	\label{frame:mode4}
-	\begin{itemize}
-		\item \hyperlink{frame:modes}{The inverter supplies the entire load demand}
-		\item  Batteries and SCs are recharged with excess
-		regenerated power
-		\item HESS regulates the dc bus voltage 
-	\begin{equation}  {\therefore P_{reg} = P_{L} + P_{HESS}} \end{equation}
-	\end{itemize}
-	
-\end{frame}
-
-\begin{frame}
-	\frametitle{Modes of Operation: Mode 5 - Over-voltage Protection}
-	\label{frame:mode5}
-	\begin{itemize}
-		\item  \hyperlink{frame:modes}{Acts whenever the regenerated power exceeds all system}
-		demand
-		\item The energy storage system is fully charged and auxiliary loads
-		are off
-		\item Regeneration is turned off
-		\begin{equation}  {When, P_{reg} > P_{L} + P_{HESS}} \end{equation}
-	\end{itemize}
-	
-\end{frame}
-
-
-\section{Advantages and Disadvantages}
-\begin{frame}
-	\frametitle{Advantages and Disadvantages}
-Advantages:
-	\begin{itemize}
-		\item  Improved electric braking range and effectiveness
-		\item  Lesser load on auxiliary generator
-		\item  Non - intrusive system
-		\item  HESS can be modified to expand it's capability
-	\end{itemize}
-
-Disadvantages:
-	\begin{itemize}
-		\item Lower lifespan of the batteries 
-		\item  Maintenance cost
-
-	\end{itemize}	
-	
-
-
-\end{frame}
-
-
-
-\section{Conclusion}
-\begin{frame}
-	\frametitle{Conclusion}
-	\begin{itemize}
-		\item  Focus on
-		using the recovery energy to supply only auxiliary loads has reduced the cost and size of the system
-		\item As the system presented is non-intrusive, it can be used to retrofit the existing systems
-		\item There is potential for full hybridization of heavy haul locomotives.
-	\end{itemize}
-	
 \end{frame}
 
 
