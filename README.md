@@ -1,1 +1,1 @@
-# seminar-ppt-WIP
+# Project presentation (se ppt.tex)
