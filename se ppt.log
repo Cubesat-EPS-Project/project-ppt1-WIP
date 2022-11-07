@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.10.13)  7 NOV 2022 18:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.10.13)  7 NOV 2022 21:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -944,15 +944,19 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 178
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<cubes1.png, id=137, 302.12875pt x 255.95625pt>
+<cubes1.png, id=150, 302.12875pt x 255.95625pt>
 File: cubes1.png Graphic file (type png)
 <use cubes1.png>
 Package pdftex.def Info: cubes1.png  used on input line 178.
-(pdftex.def)             Requested size: 128.0374pt x 108.46947pt.
- [4
+(pdftex.def)             Requested size: 145.10922pt x 122.9318pt.
 
- <./cubes1.png>]
-[5
+Overfull \hbox (15.0627pt too wide) in paragraph at lines 178--178
+ [] 
+ []
+
+[4
+
+ <./cubes1.png>] [5
 
 ] [6
 
@@ -960,12 +964,16 @@ Package pdftex.def Info: cubes1.png  used on input line 178.
 
 ] [8
 
-]
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 268.
- [9
+] [9
 
 ] [10
+
+]
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 298.
+ [11
+
+] [12
 
 ]
 \tf@nav=\write6
@@ -979,25 +987,26 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
 
  (./se ppt.aux)
 Package rerunfilecheck Info: File `"se ppt".out' has not changed.
-(rerunfilecheck)             Checksum: ECDB5CB04605A216E1E2608755A8B19B;556.
+(rerunfilecheck)             Checksum: 2694B24ADCC009C02A0B4E96C1CD8280;980.
  ) 
 Here is how much of TeX's memory you used:
- 23273 strings out of 480247
- 454100 string characters out of 5896150
- 703694 words of memory out of 5000000
- 40686 multiletter control sequences out of 15000+600000
- 507928 words of font info for 56 fonts, out of 8000000 for 9000
+ 23270 strings out of 480247
+ 453666 string characters out of 5896150
+ 707694 words of memory out of 5000000
+ 40676 multiletter control sequences out of 15000+600000
+ 510696 words of font info for 57 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,16n,122p,423b,576s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/publi
-c/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/
-texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on "se ppt.pdf" (10 pages, 200913 bytes).
+c/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/l
+m/lmsy10.pfb>
+Output written on "se ppt.pdf" (12 pages, 229744 bytes).
 PDF statistics:
- 358 PDF objects out of 1000 (max. 8388607)
- 317 compressed objects within 4 object streams
- 28 named destinations out of 1000 (max. 500000)
- 124 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 426 PDF objects out of 1000 (max. 8388607)
+ 381 compressed objects within 4 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 140 words of extra memory for PDF output out of 10000 (max. 10000000)
 

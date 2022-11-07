@@ -156,7 +156,7 @@
 	\frametitle{Project Outline	}
 
 	\begin{minipage}{0.5\textwidth}
-	CubeSat:
+	CubeSat(1U):
 \begin{itemize}
 	
 	\item Dimensions-10x10x10 cm 
@@ -165,9 +165,9 @@
 \end{minipage}
 \begin{minipage}{0.3\textwidth}
 		\begin{figure}
-	\includegraphics[width=4.5cm]{cubes1.png}
+	\includegraphics[width=5.1cm]{cubes1.png}
 	\begin{center}
-		\caption{CubeSat}
+		\caption{CubeSat 1U (Source: GIS Geography )}
 	\end{center}
 	\label{fig:trac2}
 	
@@ -183,9 +183,10 @@
  	Electrical Power System (EPS):
  	\begin{itemize}
  		
- 		\item Harvests energy from the solar panels.
- 		\item Manages power storage and distribution.
- 		\item Redundant architecture.
+ 		\item Harvests energy from the solar panels
+ 		\item Manages power storage and distribution
+ 		\item Protects circuits from damage
+ 		\item Redundant architecture
  	\end{itemize}
 \end{frame}
 
@@ -194,10 +195,7 @@
 \begin{frame}{System Architecture}
 	
 	
-	\begin{enumerate}
-		\item Block Diagram
-	\end{enumerate}
-	
+
 	
 \end{frame}
 
@@ -211,13 +209,14 @@
 \begin{frame}{Methodology}
 		\begin{itemize}
 			
-			\item Identifying the power requirements.
-			\item Forming Specifications.
-			\item Architecture design and topology selection.
-			\item Design and simulation.
+			\item Identifying the power requirements
+			\item Literature Review
+			\item Forming Specifications
+			\item Architecture design and topology selection
+			\item Design and simulation
 			\item Procurement of components
-			\item Fabrication and testing.
-			
+			\item Fabrication and testing
+		
 		\end{itemize} 
 	
 \end{frame}
@@ -230,8 +229,9 @@
 		\begin{itemize}
 			
 			\item SMD Soldering Station
-			\item DSO
-			\item Power Supply, Function Generator
+			\item Oscilloscope
+			\item Power Supply
+			\item Function Generator
 		\end{itemize} 
 	\end{minipage}
 	\begin{minipage}{0.3\textwidth}
@@ -249,7 +249,38 @@
 
 
 
+\section{Budget Estimate: Component cost}
+\begin{frame}{Budget Estimate: Component cost}
 
+\begin{table}[]
+	\begin{tabular}{|l|l|l|l}
+		\cline{1-3}
+		\textbf{Sl. No.} & \textbf{Item}                       & \textbf{Amount (Rs.)} &  \\ \cline{1-3}
+		1                & STM32 NUCLEO Development Board      & 3000                  &  \\ \cline{1-3}
+		2                & SMD soldering station               & 9000                  &  \\ \cline{1-3}
+		3                & Li - ion Cell (x2)                  & 1000                  &  \\ \cline{1-3}
+		4                & Regulated Multi-Output Power Supply & 5000                  &  \\ \cline{1-3}
+		5                & Solar Cell                          & 10000                    &  \\ \cline{1-3}
+		6                & Components                          & 5000+shipping         &  \\ \cline{1-3}
+	\end{tabular}
+\end{table}
+
+		
+
+\end{frame}
+
+\section{Budget Estimate: Fabrication cost}
+\begin{frame}{Budget Estimate: Fabrication cost}
+\begin{table}[]
+	\begin{tabular}{|l|l|l|l}
+		\cline{1-3}
+		\textbf{Sl. No.} & \textbf{Item}        & \textbf{Amount (Rs.)} &  \\ \cline{1-3}
+		1                & PCB Printing         & ??                    &  \\ \cline{1-3}
+		2                & SMD soldering        & ?                     &  \\ \cline{1-3}
+		3                & Inductor Fabrication & 1000                  &  \\ \cline{1-3}
+	\end{tabular}
+\end{table}
+\end{frame}
 
 
 \begin{frame}[allowframebreaks]{References}
