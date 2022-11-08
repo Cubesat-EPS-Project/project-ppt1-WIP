@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.10.13)  8 NOV 2022 15:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.10.13)  8 NOV 2022 15:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1145,7 +1145,11 @@ Overfull \vbox (7.78381pt too high) detected at line 208
 
 ] [11
 
-] [12
+]
+Overfull \vbox (1.1315pt too high) detected at line 335
+ []
+
+[12
 
 ] [13
 
@@ -1166,7 +1170,7 @@ Package rerunfilecheck Info: File `"se ppt".out' has not changed.
 Here is how much of TeX's memory you used:
  28373 strings out of 480247
  579837 string characters out of 5896150
- 838341 words of memory out of 5000000
+ 841341 words of memory out of 5000000
  45679 multiletter control sequences out of 15000+600000
  505102 words of font info for 55 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1176,7 +1180,7 @@ ips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/publi
 c/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share
 /texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on "se ppt.pdf" (13 pages, 480109 bytes).
+Output written on "se ppt.pdf" (13 pages, 480015 bytes).
 PDF statistics:
  451 PDF objects out of 1000 (max. 8388607)
  404 compressed objects within 5 object streams
