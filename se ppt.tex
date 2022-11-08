@@ -1,3 +1,4 @@
+\PassOptionsToPackage{table}{xcolor}
 \documentclass[aspectratio=169]{beamer}
 \hypersetup{pdfpagemode=FullScreen}
 \usepackage[utf8]{inputenc}
@@ -9,7 +10,7 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 %\usetheme{CambridgeUS}
-
+%\usepackage[table,xcdraw]{xcolor}
 \usepackage{pgfgantt}
 %\usetheme{Berlin}
 %\usetheme{Montpellier}
@@ -199,7 +200,7 @@
 	\begin{figure}[h]
 		\centering
 		\includegraphics[width=0.9\textwidth]{blk diag.png}
-		\caption{AC - DC traction (Source: Ref. \cite{p1})	}
+		\caption{CubeSat EPS Architecture}
 		\label{fig:mesh1}
 	\end{figure}
 
@@ -256,7 +257,7 @@
 
 
 
-\section{Budget Estimate: Component cost}
+\section{Budget Estimate}
 \begin{frame}{Budget Estimate: Component cost}
 
 \begin{table}[]
@@ -276,7 +277,7 @@
 
 \end{frame}
 
-\section{Budget Estimate: Fabrication cost}
+
 \begin{frame}{Budget Estimate: Fabrication cost}
 \begin{table}[]
 	\begin{tabular}{|l|l|l|l}
@@ -288,6 +289,46 @@
 	\end{tabular}
 \end{table}
 \end{frame}
+
+
+\section{Project Timeline}
+\begin{frame}{Project Timeline}
+
+\begin{table}[]
+	\begin{tabular}{|c|l|l|l|l}
+		\cline{1-4}
+		\multicolumn{1}{|l|}{\textbf{Activity}}                      & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}October 3rd \&\\  4th week\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}November 1st \&\\  2nd week\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}November 3rd \&\\  4th week\end{tabular}}} &  \\ \cline{1-4}
+		\begin{tabular}[c]{@{}c@{}}Literature \\ Review\end{tabular} & \cellcolor[HTML]{FD6864}                                                                         &                                                                                                   &                                                                                                   &  \\ \cline{1-4}
+		\begin{tabular}[c]{@{}c@{}}Hardware \\ Design\end{tabular}   & \cellcolor[HTML]{FFCC67}                                                                         & \cellcolor[HTML]{FFCC67}                                                                          & \cellcolor[HTML]{FFCC67}                                                                          &  \\ \cline{1-4}
+		\begin{tabular}[c]{@{}c@{}}Report \\ Writing\end{tabular}    &                                                                                                  &                                                                                                   &                                                                                                   &  \\ \cline{1-4}
+	\end{tabular}
+\end{table}
+
+
+
+\end{frame}
+
+
+
+\begin{frame}{Project Timeline}
+	
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+\begin{table}[]
+	\begin{tabular}{|c|l|l|l}
+		\cline{1-3}
+		\multicolumn{1}{|l|}{\textbf{Activity}}                      & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}December 1st \&\\  2nd week\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}December 3rd \&\\  4th week\end{tabular}}} &  \\ \cline{1-3}
+		\begin{tabular}[c]{@{}c@{}}Literature \\ Review\end{tabular} & \cellcolor[HTML]{FD6864}                                                                          &                                                                                                   &  \\ \cline{1-3}
+		\begin{tabular}[c]{@{}c@{}}Hardware \\ Design\end{tabular}   & \cellcolor[HTML]{FFCC67}                                                                          & \cellcolor[HTML]{FFCC67}                                                                          &  \\ \cline{1-3}
+		\begin{tabular}[c]{@{}c@{}}Report \\ Writing\end{tabular}    &                                                                                                   &                                                                                                   &  \\ \cline{1-3}
+	\end{tabular}
+\end{table}
+	
+	
+	
+\end{frame}
+
 
 
 %\begin{frame}[allowframebreaks]{References}

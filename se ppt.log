@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.10.13)  8 NOV 2022 12:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.10.13)  8 NOV 2022 15:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -196,6 +196,24 @@ Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
+
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen176
+\ar@mcellbox=\box60
+\extrarowheight=\dimen177
+\NC@list=\toks25
+\extratabsurround=\skip50
+\backup@length=\skip51
+\ar@cellbox=\box61
+)
+\everycr=\toks26
+\minrowclearance=\skip52
+)
+\rownum=\count287
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
 Package xcolor Info: Model `RGB' extended on input line 1368.
@@ -213,12 +231,12 @@ Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen176
-\pgfmath@count=\count287
-\pgfmath@box=\box60
-\pgfmath@toks=\toks25
-\pgfmath@stack@operand=\toks26
-\pgfmath@stack@operation=\toks27
+\pgfmath@dimen=\dimen178
+\pgfmath@count=\count288
+\pgfmath@box=\box62
+\pgfmath@toks=\toks27
+\pgfmath@stack@operand=\toks28
+\pgfmath@stack@operation=\toks29
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
@@ -238,58 +256,58 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count288
+\c@pgfmathroundto@lastzeros=\count289
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
 File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@picminx=\dimen177
-\pgf@picmaxx=\dimen178
-\pgf@picminy=\dimen179
-\pgf@picmaxy=\dimen180
-\pgf@pathminx=\dimen181
-\pgf@pathmaxx=\dimen182
-\pgf@pathminy=\dimen183
-\pgf@pathmaxy=\dimen184
-\pgf@xx=\dimen185
-\pgf@xy=\dimen186
-\pgf@yx=\dimen187
-\pgf@yy=\dimen188
-\pgf@zx=\dimen189
-\pgf@zy=\dimen190
+\pgf@picminx=\dimen179
+\pgf@picmaxx=\dimen180
+\pgf@picminy=\dimen181
+\pgf@picmaxy=\dimen182
+\pgf@pathminx=\dimen183
+\pgf@pathmaxx=\dimen184
+\pgf@pathminy=\dimen185
+\pgf@pathmaxy=\dimen186
+\pgf@xx=\dimen187
+\pgf@xy=\dimen188
+\pgf@yx=\dimen189
+\pgf@yy=\dimen190
+\pgf@zx=\dimen191
+\pgf@zy=\dimen192
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
 code.tex
 File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@path@lastx=\dimen191
-\pgf@path@lasty=\dimen192
+\pgf@path@lastx=\dimen193
+\pgf@path@lasty=\dimen194
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
 .tex
 File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@shorten@end@additional=\dimen193
-\pgf@shorten@start@additional=\dimen194
+\pgf@shorten@end@additional=\dimen195
+\pgf@shorten@start@additional=\dimen196
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
 File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfpic=\box61
-\pgf@hbox=\box62
-\pgf@layerbox@main=\box63
-\pgf@picture@serial@count=\count289
+\pgfpic=\box63
+\pgf@hbox=\box64
+\pgf@layerbox@main=\box65
+\pgf@picture@serial@count=\count290
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
 File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgflinewidth=\dimen195
+\pgflinewidth=\dimen197
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
 s.code.tex
 File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@pt@x=\dimen196
-\pgf@pt@y=\dimen197
-\pgf@pt@temp=\dimen198
+\pgf@pt@x=\dimen198
+\pgf@pt@y=\dimen199
+\pgf@pt@temp=\dimen256
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
@@ -305,13 +323,13 @@ File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
 x
 File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowsep=\dimen199
+\pgfarrowsep=\dimen257
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@max=\dimen256
-\pgf@sys@shading@range@num=\count290
-\pgf@shadingcount=\count291
+\pgf@max=\dimen258
+\pgf@sys@shading@range@num=\count291
+\pgf@shadingcount=\count292
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
@@ -319,7 +337,7 @@ File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
 tex
 File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfexternal@startupbox=\box64
+\pgfexternal@startupbox=\box66
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
 x
@@ -340,8 +358,8 @@ File: size11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
 Package: xxcolor 2003/10/24 ver 0.1
-\XC@nummixins=\count292
-\XC@countmixins=\count293
+\XC@nummixins=\count293
+\XC@countmixins=\count294
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
@@ -385,9 +403,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen257
-\Hy@linkcounter=\count294
-\Hy@pagecounter=\count295
+\@linkdim=\dimen259
+\Hy@linkcounter=\count295
+\Hy@pagecounter=\count296
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
@@ -404,7 +422,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count296
+\Hy@SavedSpaceFactor=\count297
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
@@ -421,14 +439,14 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count297
+\c@Hy@tempcnt=\count298
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen258
+\XeTeXLinkMargin=\dimen260
 
 (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -437,9 +455,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count298
-\Field@Width=\dimen259
-\Fld@charsize=\dimen260
+\Fld@menulength=\count299
+\Field@Width=\dimen261
+\Fld@charsize=\dimen262
 Package hyperref Info: Hyper figures OFF on input line 6076.
 Package hyperref Info: Link nesting OFF on input line 6081.
 Package hyperref Info: Hyper index ON on input line 6084.
@@ -449,7 +467,7 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6101.
 Package hyperref Info: PDF/A mode OFF on input line 6106.
 LaTeX Info: Redefining \ref on input line 6146.
 LaTeX Info: Redefining \pageref on input line 6150.
-\Hy@abspage=\count299
+\Hy@abspage=\count300
 
 
 Package hyperref Message: Stopped early.
@@ -464,8 +482,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count300
-\c@bookmark@seq@number=\count301
+\Fld@listcount=\count301
+\c@bookmark@seq@number=\count302
 
 (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -484,7 +502,7 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks28
+\@emptytoks=\toks30
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
@@ -511,87 +529,87 @@ Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemisc.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
-\beamer@argscount=\count302
-\beamer@lastskipcover=\skip50
-\beamer@trivlistdepth=\count303
+\beamer@argscount=\count303
+\beamer@lastskipcover=\skip53
+\beamer@trivlistdepth=\count304
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetitle.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasesection.sty
-\c@lecture=\count304
-\c@part=\count305
-\c@section=\count306
-\c@subsection=\count307
-\c@subsubsection=\count308
+\c@lecture=\count305
+\c@part=\count306
+\c@section=\count307
+\c@subsection=\count308
+\c@subsubsection=\count309
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
-\beamer@framebox=\box65
-\beamer@frametitlebox=\box66
-\beamer@zoombox=\box67
-\beamer@zoomcount=\count309
-\beamer@zoomframecount=\count310
-\beamer@frametextheight=\dimen261
-\c@subsectionslide=\count311
-\beamer@frametopskip=\skip51
-\beamer@framebottomskip=\skip52
-\beamer@frametopskipautobreak=\skip53
-\beamer@framebottomskipautobreak=\skip54
-\beamer@envbody=\toks29
-\framewidth=\dimen262
-\c@framenumber=\count312
+\beamer@framebox=\box67
+\beamer@frametitlebox=\box68
+\beamer@zoombox=\box69
+\beamer@zoomcount=\count310
+\beamer@zoomframecount=\count311
+\beamer@frametextheight=\dimen263
+\c@subsectionslide=\count312
+\beamer@frametopskip=\skip54
+\beamer@framebottomskip=\skip55
+\beamer@frametopskipautobreak=\skip56
+\beamer@framebottomskipautobreak=\skip57
+\beamer@envbody=\toks31
+\framewidth=\dimen264
+\c@framenumber=\count313
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
 \beamer@verbatimfileout=\write4
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
-\beamer@splitbox=\box68
-\beamer@autobreakcount=\count313
-\beamer@autobreaklastheight=\dimen263
-\beamer@frametitletoks=\toks30
-\beamer@framesubtitletoks=\toks31
+\beamer@splitbox=\box70
+\beamer@autobreakcount=\count314
+\beamer@autobreaklastheight=\dimen265
+\beamer@frametitletoks=\toks32
+\beamer@framesubtitletoks=\toks33
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.sty
-\beamer@footins=\box69
+\beamer@footins=\box71
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecolor.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
-\beamer@frameboxcopy=\box70
+\beamer@frameboxcopy=\box72
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetoc.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
-\beamer@sbttoks=\toks32
+\beamer@sbttoks=\toks34
 
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
-\bmb@box=\box71
-\bmb@colorbox=\box72
-\bmb@boxwidth=\dimen264
-\bmb@boxheight=\dimen265
-\bmb@prevheight=\dimen266
-\bmb@temp=\dimen267
-\bmb@dima=\dimen268
-\bmb@dimb=\dimen269
-\bmb@prevheight=\dimen270
+\bmb@box=\box73
+\bmb@colorbox=\box74
+\bmb@boxwidth=\dimen266
+\bmb@boxheight=\dimen267
+\bmb@prevheight=\dimen268
+\bmb@temp=\dimen269
+\bmb@dima=\dimen270
+\bmb@dimb=\dimen271
+\bmb@prevheight=\dimen272
 )
-\beamer@blockheadheight=\dimen271
+\beamer@blockheadheight=\dimen273
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.sty
 (/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
-\@enLab=\toks33
+\@enLab=\toks35
 )
-\beamer@bibiconwidth=\skip55
-\c@figure=\count314
-\c@table=\count315
-\abovecaptionskip=\skip56
-\belowcaptionskip=\skip57
+\beamer@bibiconwidth=\skip58
+\c@figure=\count315
+\c@table=\count316
+\abovecaptionskip=\skip59
+\belowcaptionskip=\skip60
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
-\beamer@section@min@dim=\dimen272
+\beamer@section@min@dim=\dimen274
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2021/10/15 v2.17l AMS math features
-\@mathmargin=\skip58
+\@mathmargin=\skip61
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -599,81 +617,81 @@ Package: amstext 2021/08/26 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks34
-\ex@=\dimen273
+\@emptytoks=\toks36
+\ex@=\dimen275
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen274
+\pmbraise@=\dimen276
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2021/08/26 v2.02 operator names
 )
-\inf@bad=\count316
+\inf@bad=\count317
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count317
-\leftroot@=\count318
+\uproot@=\count318
+\leftroot@=\count319
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count319
-\DOTSCASE@=\count320
+\classnum@=\count320
+\DOTSCASE@=\count321
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box73
-\strutbox@=\box74
-\big@size=\dimen275
+\Mathstrutbox@=\box75
+\strutbox@=\box76
+\big@size=\dimen277
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count321
-\c@MaxMatrixCols=\count322
+\macc@depth=\count322
+\c@MaxMatrixCols=\count323
 \dotsspace@=\muskip17
-\c@parentequation=\count323
-\dspbrk@lvl=\count324
-\tag@help=\toks35
-\row@=\count325
-\column@=\count326
-\maxfields@=\count327
-\andhelp@=\toks36
-\eqnshift@=\dimen276
-\alignsep@=\dimen277
-\tagshift@=\dimen278
-\tagwidth@=\dimen279
-\totwidth@=\dimen280
-\lineht@=\dimen281
-\@envbody=\toks37
-\multlinegap=\skip59
-\multlinetaggap=\skip60
-\mathdisplay@stack=\toks38
+\c@parentequation=\count324
+\dspbrk@lvl=\count325
+\tag@help=\toks37
+\row@=\count326
+\column@=\count327
+\maxfields@=\count328
+\andhelp@=\toks38
+\eqnshift@=\dimen278
+\alignsep@=\dimen279
+\tagshift@=\dimen280
+\tagwidth@=\dimen281
+\totwidth@=\dimen282
+\lineht@=\dimen283
+\@envbody=\toks39
+\multlinegap=\skip62
+\multlinetaggap=\skip63
+\mathdisplay@stack=\toks40
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks39
-\thm@bodyfont=\toks40
-\thm@headfont=\toks41
-\thm@notefont=\toks42
-\thm@headpunct=\toks43
-\thm@preskip=\skip61
-\thm@postskip=\skip62
-\thm@headsep=\skip63
-\dth@everypar=\toks44
+\thm@style=\toks41
+\thm@bodyfont=\toks42
+\thm@headfont=\toks43
+\thm@notefont=\toks44
+\thm@headpunct=\toks45
+\thm@preskip=\skip64
+\thm@postskip=\skip65
+\thm@headsep=\skip66
+\dth@everypar=\toks46
 )
-\c@theorem=\count328
+\c@theorem=\count329
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasethemes.sty))
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemedefault.sty
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
-\beamer@dima=\dimen282
-\beamer@dimb=\dimen283
+\beamer@dima=\dimen284
+\beamer@dimb=\dimen285
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty)))
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks45
-\inpenc@posthook=\toks46
+\inpenc@prehook=\toks47
+\inpenc@posthook=\toks48
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
@@ -715,14 +733,14 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2022/01/26 3.70 The Babel package
-\babel@savecnt=\count329
-\U@D=\dimen284
+\babel@savecnt=\count330
+\U@D=\dimen286
 \l@unhyphenated=\language3
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read3
 LaTeX Info: Redefining \textlatin on input line 3967.
-\bbl@dirlevel=\count330
+\bbl@dirlevel=\count331
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
@@ -746,15 +764,15 @@ Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodeparttextbox=\box75
+\pgfnodeparttextbox=\box77
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen285
-\pgf@nodesepend=\dimen286
+\pgf@nodesepstart=\dimen287
+\pgf@nodesepend=\dimen288
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -768,10 +786,10 @@ Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
 Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen287
-\pgffor@skip=\dimen288
-\pgffor@stack=\toks47
-\pgffor@toks=\toks48
+\pgffor@iter=\dimen289
+\pgffor@skip=\dimen290
+\pgffor@stack=\toks49
+\pgffor@toks=\toks50
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
@@ -779,33 +797,33 @@ Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count331
-\pgfplotmarksize=\dimen289
+\pgf@plot@mark@count=\count332
+\pgfplotmarksize=\dimen291
 )
-\tikz@lastx=\dimen290
-\tikz@lasty=\dimen291
-\tikz@lastxsaved=\dimen292
-\tikz@lastysaved=\dimen293
-\tikz@lastmovetox=\dimen294
-\tikz@lastmovetoy=\dimen295
-\tikzleveldistance=\dimen296
-\tikzsiblingdistance=\dimen297
-\tikz@figbox=\box76
-\tikz@figbox@bg=\box77
-\tikz@tempbox=\box78
-\tikz@tempbox@bg=\box79
-\tikztreelevel=\count332
-\tikznumberofchildren=\count333
-\tikznumberofcurrentchild=\count334
-\tikz@fig@count=\count335
+\tikz@lastx=\dimen292
+\tikz@lasty=\dimen293
+\tikz@lastxsaved=\dimen294
+\tikz@lastysaved=\dimen295
+\tikz@lastmovetox=\dimen296
+\tikz@lastmovetoy=\dimen297
+\tikzleveldistance=\dimen298
+\tikzsiblingdistance=\dimen299
+\tikz@figbox=\box78
+\tikz@figbox@bg=\box79
+\tikz@tempbox=\box80
+\tikz@tempbox@bg=\box81
+\tikztreelevel=\count333
+\tikznumberofchildren=\count334
+\tikznumberofcurrentchild=\count335
+\tikz@fig@count=\count336
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count336
-\pgfmatrixcurrentcolumn=\count337
-\pgf@matrix@numberofcolumns=\count338
+\pgfmatrixcurrentrow=\count337
+\pgfmatrixcurrentcolumn=\count338
+\pgf@matrix@numberofcolumns=\count339
 )
-\tikz@expandcount=\count339
+\tikz@expandcount=\count340
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -818,13 +836,13 @@ File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
 tex
 File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\arrowsize=\dimen298
+\arrowsize=\dimen300
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@layerbox@background=\box80
-\pgf@layerboxsaved@background=\box81
+\pgf@layerbox@background=\box82
+\pgf@layerboxsaved@background=\box83
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarycalc.code.tex
@@ -855,34 +873,34 @@ File: pgflibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 File: pgfcalendar.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
-\pgfcalendarcurrentjulian=\count340
-\pgf@cal@easter@Y=\count341
-\pgf@cal@easter@G=\count342
-\pgf@cal@easter@C=\count343
-\pgf@cal@easter@X=\count344
-\pgf@cal@easter@Z=\count345
-\pgf@cal@easter@D=\count346
-\pgf@cal@easter@E=\count347
-\pgf@cal@easter@N=\count348
-\pgf@cal@easter@M=\count349
-\pgf@cal@easter@julianday=\count350
+\pgfcalendarcurrentjulian=\count341
+\pgf@cal@easter@Y=\count342
+\pgf@cal@easter@G=\count343
+\pgf@cal@easter@C=\count344
+\pgf@cal@easter@X=\count345
+\pgf@cal@easter@Z=\count346
+\pgf@cal@easter@D=\count347
+\pgf@cal@easter@E=\count348
+\pgf@cal@easter@N=\count349
+\pgf@cal@easter@M=\count350
+\pgf@cal@easter@julianday=\count351
 ))
-\gtt@currentline=\count351
-\gtt@lasttitleline=\count352
-\gtt@currgrid=\count353
-\gtt@chartwidth=\count354
-\gtt@lasttitleslot=\count355
-\gtt@elementid=\count356
-\gtt@today@slot=\count357
-\gtt@startjulian=\count358
-\gtt@endjulian=\count359
-\gtt@chartid=\count360
-\gtt@vrule@slot=\count361
-\gtt@calendar@slots=\count362
-\gtt@calendar@weeknumber=\count363
-\gtt@calendar@startofweek=\count364
-\gtt@left@slot=\count365
-\gtt@right@slot=\count366
+\gtt@currentline=\count352
+\gtt@lasttitleline=\count353
+\gtt@currgrid=\count354
+\gtt@chartwidth=\count355
+\gtt@lasttitleslot=\count356
+\gtt@elementid=\count357
+\gtt@today@slot=\count358
+\gtt@startjulian=\count359
+\gtt@endjulian=\count360
+\gtt@chartid=\count361
+\gtt@vrule@slot=\count362
+\gtt@calendar@slots=\count363
+\gtt@calendar@weeknumber=\count364
+\gtt@calendar@startofweek=\count365
+\gtt@left@slot=\count366
+\gtt@right@slot=\count367
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemeBoadilla.sty
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemerose.sty)
@@ -896,38 +914,38 @@ LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemeserif.sty)
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 9
-9.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
+00.
 
 (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count367
-\l__pdf_internal_box=\box82
+\l__color_backend_stack_int=\count368
+\l__pdf_internal_box=\box84
 )
 (./se ppt.aux)
 \openout1 = `"se ppt.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -965,17 +983,17 @@ LaTeX Font Info:    ... okay on input line 99.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count368
-\scratchdimen=\dimen299
-\scratchbox=\box83
-\nofMPsegments=\count369
-\nofMParguments=\count370
-\everyMPshowfont=\toks49
-\MPscratchCnt=\count371
-\MPscratchDim=\dimen300
-\MPnumerator=\count372
-\makeMPintoPDFobject=\count373
-\everyMPtoPDFconversion=\toks50
+\scratchcounter=\count369
+\scratchdimen=\dimen301
+\scratchbox=\box85
+\nofMPsegments=\count370
+\nofMParguments=\count371
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count372
+\MPscratchDim=\dimen302
+\MPnumerator=\count373
+\makeMPintoPDFobject=\count374
+\everyMPtoPDFconversion=\toks52
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -985,7 +1003,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 99.
+Package hyperref Info: Link coloring OFF on input line 100.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -996,11 +1014,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count374
+\c@section@level=\count375
 )
-LaTeX Info: Redefining \ref on input line 99.
-LaTeX Info: Redefining \pageref on input line 99.
-LaTeX Info: Redefining \nameref on input line 99.
+LaTeX Info: Redefining \ref on input line 100.
+LaTeX Info: Redefining \pageref on input line 100.
+LaTeX Info: Redefining \nameref on input line 100.
 
 (./se ppt.out) (./se ppt.out)
 \@outlinefile=\write5
@@ -1032,11 +1050,11 @@ ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (./se ppt.nav)
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 99.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 100.
 
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 107.
+(hyperref)                setting the option has no effect on input line 108.
 
 
 Overfull \vbox (15.65001pt too high) has occurred while \output is active []
@@ -1051,41 +1069,41 @@ Overfull \vbox (15.65001pt too high) has occurred while \output is active []
 
 ]
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-80.
+81.
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-80.
+81.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-180.
+181.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-180.
+181.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 180.
+(Font)              <10.95> on input line 181.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 180.
+(Font)              <8> on input line 181.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 180.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 180
+(Font)              <6> on input line 181.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 181
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 180
+LaTeX Font Info:    Trying to load font information for U+msb on input line 181
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1094,10 +1112,10 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <cubes1.png, id=150, 302.12875pt x 255.95625pt>
 File: cubes1.png Graphic file (type png)
 <use cubes1.png>
-Package pdftex.def Info: cubes1.png  used on input line 180.
+Package pdftex.def Info: cubes1.png  used on input line 181.
 (pdftex.def)             Requested size: 145.10922pt x 122.9318pt.
 
-Overfull \hbox (15.0627pt too wide) in paragraph at lines 180--180
+Overfull \hbox (15.0627pt too wide) in paragraph at lines 181--181
  [] 
  []
 
@@ -1106,14 +1124,14 @@ Overfull \hbox (15.0627pt too wide) in paragraph at lines 180--180
  <./cubes1.png>] [5
 
 ]
-<blk diag.png, id=206, 3784.1375pt x 1590.94376pt>
+<blk diag.png, id=206, 3820.2725pt x 1773.62625pt>
 File: blk diag.png Graphic file (type png)
 <use blk diag.png>
-Package pdftex.def Info: blk diag.png  used on input line 207.
-(pdftex.def)             Requested size: 390.13298pt x 164.0074pt.
+Package pdftex.def Info: blk diag.png  used on input line 208.
+(pdftex.def)             Requested size: 390.13298pt x 181.10774pt.
 
-
-LaTeX Warning: Citation `p1' on page 6 undefined on input line 207.
+Overfull \vbox (7.78381pt too high) detected at line 208
+ []
 
 [6
 
@@ -1127,6 +1145,10 @@ LaTeX Warning: Citation `p1' on page 6 undefined on input line 207.
 
 ] [11
 
+] [12
+
+] [13
+
 ]
 \tf@nav=\write6
 \openout6 = `"se ppt.nav"'.
@@ -1138,18 +1160,15 @@ LaTeX Warning: Citation `p1' on page 6 undefined on input line 207.
 \openout8 = `"se ppt.snm"'.
 
  (./se ppt.aux)
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `"se ppt".out' has not changed.
-(rerunfilecheck)             Checksum: 2694B24ADCC009C02A0B4E96C1CD8280;980.
+(rerunfilecheck)             Checksum: A86E56B0B545E1A02A4F6B52E8FF0CC2;803.
  ) 
 Here is how much of TeX's memory you used:
- 28233 strings out of 480247
- 577588 string characters out of 5896150
- 834267 words of memory out of 5000000
- 45549 multiletter control sequences out of 15000+600000
- 507870 words of font info for 56 fonts, out of 8000000 for 9000
+ 28373 strings out of 480247
+ 579837 string characters out of 5896150
+ 838341 words of memory out of 5000000
+ 45679 multiletter control sequences out of 15000+600000
+ 505102 words of font info for 55 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,16n,122p,423b,574s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
@@ -1157,10 +1176,10 @@ ips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/publi
 c/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share
 /texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on "se ppt.pdf" (11 pages, 459334 bytes).
+Output written on "se ppt.pdf" (13 pages, 480109 bytes).
 PDF statistics:
- 397 PDF objects out of 1000 (max. 8388607)
- 353 compressed objects within 4 object streams
- 32 named destinations out of 1000 (max. 500000)
+ 451 PDF objects out of 1000 (max. 8388607)
+ 404 compressed objects within 5 object streams
+ 36 named destinations out of 1000 (max. 500000)
  145 words of extra memory for PDF output out of 10000 (max. 10000000)
 

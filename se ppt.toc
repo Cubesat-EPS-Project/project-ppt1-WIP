@@ -4,5 +4,5 @@
 \beamer@sectionintoc {3}{System Architecture}{6}{0}{3}
 \beamer@sectionintoc {4}{Methodology}{7}{0}{4}
 \beamer@sectionintoc {5}{Requirements}{8}{0}{5}
-\beamer@sectionintoc {6}{Budget Estimate: Component cost}{9}{0}{6}
-\beamer@sectionintoc {7}{Budget Estimate: Fabrication cost}{10}{0}{7}
+\beamer@sectionintoc {6}{Budget Estimate}{9}{0}{6}
+\beamer@sectionintoc {7}{Project Timeline}{11}{0}{7}
