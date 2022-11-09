@@ -1,8 +1,9 @@
 \babel@toc {english}{}\relax 
 \beamer@sectionintoc {1}{Objectives}{3}{0}{1}
 \beamer@sectionintoc {2}{Project Outline}{4}{0}{2}
-\beamer@sectionintoc {3}{System Architecture}{6}{0}{3}
-\beamer@sectionintoc {4}{Methodology}{7}{0}{4}
-\beamer@sectionintoc {5}{Requirements}{8}{0}{5}
-\beamer@sectionintoc {6}{Budget Estimate}{9}{0}{6}
-\beamer@sectionintoc {7}{Project Timeline}{11}{0}{7}
+\beamer@sectionintoc {3}{Literature Review}{6}{0}{3}
+\beamer@sectionintoc {4}{System Architecture}{8}{0}{4}
+\beamer@sectionintoc {5}{Methodology}{9}{0}{5}
+\beamer@sectionintoc {6}{Requirements}{10}{0}{6}
+\beamer@sectionintoc {7}{Budget Estimate}{11}{0}{7}
+\beamer@sectionintoc {8}{Project Timeline}{13}{0}{8}
