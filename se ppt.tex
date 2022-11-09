@@ -203,20 +203,29 @@
 			\begin{itemize}
 			\item  Solar cells and batteries used for generation and storage of power respectively
 			\item Batteries supply power during absence of solar energy
-			\item Li-ion batteries are preferred to Ni-MH
+			\item Li-ion batteries are preferred to Ni-MH \cite{p3}
 		\end{itemize}
 	
 	
 		Power Conditioning:
 	\begin{itemize}
 		\item DC-DC converters are preferred to linear voltage regulators to reduce losses
-		\item Peak power transfer is preferred to direct power transfer for solar output
+		\item Peak power transfer is preferred to direct power transfer for solar output \cite{p2}
 		\item Trickle charge method is used to charge the batteries
 		\item 5V and 3.3V DC-DC convertors outputs regulated voltage to their respective DC	 buses
 	\end{itemize}
 	\end{frame}
 	\begin{frame}
 		\frametitle{Literature Review (Contd.)}
+		
+				Power Distribution:
+		\begin{itemize}
+			\item Distributed EPS scheme \cite{p1} is preferred to increase flexibility
+			\item 5V and 3.3V DC-DC convertors outputs regulated voltage to their respective DC	buses
+			
+		\end{itemize}
+		
+		
 Power Monitoring and Converter control:
 	\begin{itemize}
 	\item The microcontroller monitors the voltage levels and currents in the circuit and DC buses
@@ -430,17 +439,26 @@ Power Monitoring and Converter control:
 	\begin{frame}[allowframebreaks]{References}
 	
 	\begin{thebibliography}{9}
+			
+		\bibitem[1]{p3}
+		E. Ayoub and N. Karami 
+		\newblock Review on the charging techniques of a Li-Ion battery
+		\newblock \emph{Third International Conference on Technological Advances in Electrical, Electronics and Computer Engineering (TAEECE), 2015, pp. 50-55}
 		
-			\bibitem[1]{p1}
+		\bibitem[2]{p2}
+		A. Edpuganti, V. Khadkikar, H. Zeineldin, M. S. E. Moursi and M. Al Hosani (2021)
+		\newblock Comparison of Peak Power Tracking Based Electric Power System Architectures for CubeSats
+		\newblock \emph{IEEE Transactions on Industry Applications, vol. 57, no. 3, pp. 2758-2768, May-June 2021}
+		
+		
+			\bibitem[3]{p1}
 	B. Hussein, A. M. Massoud and T. Khattab (2022)
 	\newblock Centralized, Distributed, and Module-Integrated Electric Power System Schemes in CubeSats: Performance Assessment
 	\newblock \emph{ IEEE Access, vol. 10, pp. 55396-55407}
 
 
-			\bibitem[1]{p1}
-B. Hussein, A. M. Massoud and T. Khattab (2022)
-\newblock Centralized, Distributed, and Module-Integrated Electric Power System Schemes in CubeSats: Performance Assessment
-\newblock \emph{ IEEE Access, vol. 10, pp. 55396-55407}
+
+
 
 
 	\end{thebibliography}
