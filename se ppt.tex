@@ -28,11 +28,11 @@
 \setbeamertemplate{caption}[numbered]
 \setbeamertemplate{bibliography item}{\insertbiblabel}
 %\hypersetup{
-%	colorlinks=true,
-%	linkcolor=blue,
-%	filecolor=magenta,      
-%	urlcolor=cyan,
-%}
+	%	colorlinks=true,
+	%	linkcolor=blue,
+	%	filecolor=magenta,      
+	%	urlcolor=cyan,
+	%}
 \renewcommand{\figurename}{Fig.}
 \setbeamertemplate{section in toc}[sections numbered]
 \insertsectionnavigationhorizontal{.5\textwidth}{\hskip0pt plus1filll}{}
@@ -79,142 +79,142 @@
 	\vskip0pt%
 }
 
-  
-  
-  \definecolor{UniBlue}{RGB}{83,121,170}
-  
-  \setbeamercolor{title}{fg=white, bg=UniBlue}
-  %\setbeamercolor{title in head/foot}{fg=black,bg=lightgray}
-  %\setbeamercolor{author in head/foot}{fg=white,bg=black}
- %\setbeamercolor{frametitle}{fg=white,bg=black}
-  %\setbeamercolor{block title}{fg=white,bg=black}
-  %\setbeamercolor{block body}{bg=lightgray, fg=black}
-  %\setbeamercolor{date in head/foot}{fg=white, bg=black}
-  %\setbeamercolor{item}{fg=gray}
-  
+
+
+\definecolor{UniBlue}{RGB}{83,121,170}
+
+\setbeamercolor{title}{fg=white, bg=UniBlue}
+%\setbeamercolor{title in head/foot}{fg=black,bg=lightgray}
+%\setbeamercolor{author in head/foot}{fg=white,bg=black}
+%\setbeamercolor{frametitle}{fg=white,bg=black}
+%\setbeamercolor{block title}{fg=white,bg=black}
+%\setbeamercolor{block body}{bg=lightgray, fg=black}
+%\setbeamercolor{date in head/foot}{fg=white, bg=black}
+%\setbeamercolor{item}{fg=gray}
 
 
 
 
-  
+
+
 \begin{document}
 	%\author{}
 	\title{Power Distribution System for a CubeSat}
 	
 	\subtitle{}
 	%\logo{}
-
 	
-     \author{Presented by :\\Ansaf Niyaz | TRV19EE016  \and Govind Murali | TRV19EE025  \and \\Jijesh J. Kumar | TRV19EE029  \and Naveen A.B. | TRV19EE038}
-
+	
+	\author{Presented by :\\Ansaf Niyaz | TRV19EE016  \and Govind Murali | TRV19EE025  \and \\Jijesh J. Kumar | TRV19EE029  \and Naveen A.B. | TRV19EE038}
+	
 	\institute{GEC Barton Hill,Thiruvananthapuram}
 	\date{\today}
 	
 	
 	\setbeamercovered{transparent}
-\setbeamertemplate{navigation symbols}
-{%
-	\hbox{%
-		\hbox{\insertslidenavigationsymbol}
-		\hbox{\insertframenavigationsymbol}
-		\hbox{\insertsubsectionnavigationsymbol}
-		\hbox{\insertsectionnavigationsymbol}
-		\hbox{\insertdocnavigationsymbol}
-		\hbox{\insertbackfindforwardnavigationsymbol}}%
-}
+	\setbeamertemplate{navigation symbols}
+	{%
+		\hbox{%
+			\hbox{\insertslidenavigationsymbol}
+			\hbox{\insertframenavigationsymbol}
+			\hbox{\insertsubsectionnavigationsymbol}
+			\hbox{\insertsectionnavigationsymbol}
+			\hbox{\insertdocnavigationsymbol}
+			\hbox{\insertbackfindforwardnavigationsymbol}}%
+	}
 	\begin{frame}[plain]
-	\maketitle
-	\center{Guided by: Prof. Dinesh Gopinath}
-%	\center{{SEMINAR PRESENTATION}}
-\end{frame}
-
-
-\begin{frame}
-\frametitle{Contents}
-
-
-
-
-\tableofcontents
-\end{frame}
-
-
-
-\section{Objectives}
-\begin{frame}
+		\maketitle
+		\center{Guided by: Prof. Dinesh Gopinath}
+		%	\center{{SEMINAR PRESENTATION}}
+	\end{frame}
 	
-\frametitle{Objective}
- To design and implement a fully autonomous power generation, storage and distribution system for a CubeSat 
- 
- 
-
-\end{frame}
-
-
-
-
-\section{Project Outline}
-
-\begin{frame}
-	\frametitle{Project Outline	}
-
-	\begin{minipage}{0.5\textwidth}
-	CubeSat(1U):
-\begin{itemize}
 	
-	\item Dimensions-10x10x10 cm 
-	\item Weight-2 kg.
-\end{itemize}
-\end{minipage}
-\begin{minipage}{0.3\textwidth}
-		\begin{figure}
-	\includegraphics[width=5.1cm]{cubes1.png}
-	\begin{center}
-		\caption{CubeSat 1U (Source: GIS Geography )}
-	\end{center}
-	\label{fig:trac2}
+	\begin{frame}
+		\frametitle{Contents}
+		
+		
+		
+		
+		\tableofcontents
+	\end{frame}
 	
-\end{figure}
 	
-\end{minipage}
-
-	 \end{frame}
-
-
-\begin{frame}
-	\frametitle{Project Outline (Contd.)}
- 	Electrical Power System (EPS):
- 	\begin{itemize}
- 		
- 		\item Harvests energy from the solar panels
- 		\item Manages power storage and distribution
- 		\item Protects circuits from damage
- 		\item Redundant architecture
- 	\end{itemize}
-\end{frame}
-
-
-\section{System Architecture}
-\begin{frame}{System Architecture}
 	
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=0.9\textwidth]{blk diag.png}
-		\caption{CubeSat EPS Architecture}
-		\label{fig:mesh1}
-	\end{figure}
-
-	
-\end{frame}
-
-\section{Methodology}
-
+	\section{Objectives}
+	\begin{frame}
+		
+		\frametitle{Objective}
+		To design and implement a fully autonomous power generation, storage and distribution system for a CubeSat 
+		
+		
+		
+	\end{frame}
 	
 	
 	
 	
+	\section{Project Outline}
+	
+	\begin{frame}
+		\frametitle{Project Outline	}
+		
+		\begin{minipage}{0.5\textwidth}
+			CubeSat(1U):
+			\begin{itemize}
+				
+				\item Dimensions-10x10x10 $cm^{3} $
+				\item Weight-2 kg.
+			\end{itemize}
+		\end{minipage}
+		\begin{minipage}{0.3\textwidth}
+			\begin{figure}
+				\includegraphics[width=5.1cm]{cubes1.png}
+				\begin{center}
+					\caption{CubeSat 1U (Source: GIS Geography )}
+				\end{center}
+				\label{fig:trac2}
+				
+			\end{figure}
+			
+		\end{minipage}
+		
+	\end{frame}
 
-\begin{frame}{Methodology}
+	
+	\begin{frame}
+		\frametitle{Project Outline (Contd.)}
+		Electrical Power System (EPS):
+		\begin{itemize}
+			
+			\item Harvests energy from the solar panels
+			\item Manages power storage and distribution
+			\item Protects circuits from damage
+			\item Redundant architecture
+		\end{itemize}
+	\end{frame}
+	
+	
+	\section{System Architecture}
+	\begin{frame}{System Architecture}
+		
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.9\textwidth]{blk diag.png}
+			\caption{CubeSat EPS Architecture}
+			\label{fig:mesh1}
+		\end{figure}
+		
+		
+	\end{frame}
+	
+	\section{Methodology}
+	
+	
+	
+	
+	
+	
+	\begin{frame}{Methodology}
 		\begin{itemize}
 			
 			\item Identifying the power requirements
@@ -224,135 +224,191 @@
 			\item Design and simulation
 			\item Procurement of components
 			\item Fabrication and testing
-		
-		\end{itemize} 
-	
-\end{frame}
-
-
-\section{Requirements}
-\begin{frame}{Requirements}
-	\begin{minipage}{0.5\textwidth}
-		Equipments Requirements:
-		\begin{itemize}
-			
-			\item SMD Soldering Station
-			\item Oscilloscope
-			\item Power Supply
-			\item Function Generator
-		\end{itemize} 
-	\end{minipage}
-	\begin{minipage}{0.3\textwidth}
-		Software Requirements:
-		\begin{itemize}
-			
-			\item MATLAB/Spice
-			\item KiCad
-			\item STM32 CubeIDE
 			
 		\end{itemize} 
 		
-	\end{minipage}
-\end{frame}
-
-
-
-\section{Budget Estimate}
-\begin{frame}{Budget Estimate: Component cost}
-
-\begin{table}[]
-	\begin{tabular}{|l|l|l|l}
-		\cline{1-3}
-		\textbf{Sl. No.} & \textbf{Item}                       & \textbf{Amount (Rs.)} &  \\ \cline{1-3}
-		1                & STM32 NUCLEO Development Board      & 3000                  &  \\ \cline{1-3}
-		2                & SMD soldering station               & 9000                  &  \\ \cline{1-3}
-		3                & Li-ion Cell (x2)                  & 1000                  &  \\ \cline{1-3}
-		4                & Regulated Multi-Output Power Supply & 5000                  &  \\ \cline{1-3}
-		5                & Solar Panel                         & 2000                    &  \\ \cline{1-3}
-		6                & Components                          & 8000         &  \\ \cline{1-3}
-	\end{tabular}
-\end{table}
-
+	\end{frame}
+	
+	
+	\section{Requirements}
+	\begin{frame}{Requirements}
+		\begin{minipage}{0.5\textwidth}
+			Equipments Requirements:
+			\begin{itemize}
+				
+				\item SMD Soldering Station
+				\item Oscilloscope
+				\item Power Supply
+				\item Function Generator
+			\end{itemize} 
+		\end{minipage}
+		\begin{minipage}{0.3\textwidth}
+			Software Requirements:
+			\begin{itemize}
+				
+				\item MATLAB/Spice
+				\item KiCad
+				\item STM32 CubeIDE
+				
+			\end{itemize} 
+			
+		\end{minipage}
+	\end{frame}
+	
+	
+	
+	\section{Budget Estimate}
+	\begin{frame}{Budget Estimate: Component cost}
 		
-
-\end{frame}
-
-
-\begin{frame}{Budget Estimate: Fabrication cost}
-\begin{table}[]
-	\begin{tabular}{|l|l|l|l}
-		\cline{1-3}
-		\textbf{Sl. No.} & \textbf{Item}        & \textbf{Amount (Rs.)} &  \\ \cline{1-3}
-		1                & PCB Printing         & 3000                    &  \\ \cline{1-3}
-		2                & SMD soldering        & 990                    &  \\ \cline{1-3}
-		3                & Inductor Fabrication & 1000                  &  \\ \cline{1-3}
-	\end{tabular}
-\end{table}
-\end{frame}
-
-
-\section{Project Timeline}
-\begin{frame}{Project Timeline}
-
-\begin{table}[]
-	\begin{tabular}{|c|l|l|l|l}
-		\cline{1-4}
-		\multicolumn{1}{|l|}{\textbf{Activity}}                      & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}October 3rd \&\\  4th week\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}November 1st \&\\  2nd week\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}November 3rd \&\\  4th week\end{tabular}}} &  \\ \cline{1-4}
-		\begin{tabular}[c]{@{}c@{}}Literature \\ Review\end{tabular} &  \cellcolor[HTML]{FD6864}                                                                         & \cellcolor[HTML]{FD6864}                                                                                                  &                                                                                                   &  \\ \cline{1-4}
-		\begin{tabular}[c]{@{}c@{}}Hardware \\ Design\end{tabular}   & \cellcolor[HTML]{FFCC67}                                                                         & \cellcolor[HTML]{FFCC67}                                                                          & \cellcolor[HTML]{FFCC67}                                                                          &  \\ \cline{1-4}
-		\begin{tabular}[c]{@{}c@{}}Report \\ Writing\end{tabular}    &                                                                                                  &                                                                                                   &                                                                                                   &  \\ \cline{1-4}
-	\end{tabular}
-\end{table}
-
-
-
-\end{frame}
-
-
-
-\begin{frame}{Project Timeline}
-	
-
-
-% Please add the following required packages to your document preamble:
-% \usepackage[table,xcdraw]{xcolor}
-% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
-\begin{table}[]
-	\begin{tabular}{|c|l|l|l}
-		\cline{1-3}
-		\multicolumn{1}{|l|}{\textbf{Activity}}                                 & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}December 1st \&\\  2nd week\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}December 3rd \&\\  4th week\end{tabular}}} &  \\ \cline{1-3}
-		\begin{tabular}[c]{@{}c@{}}Literature \\ Review\end{tabular}            & \cellcolor[HTML]{FD6864}                                                                          &                                                                                                   &  \\ \cline{1-3}
-		\begin{tabular}[c]{@{}c@{}}Hardware \\ Design\end{tabular}              & \cellcolor[HTML]{FFCC67}                                                                          & \cellcolor[HTML]{FFCC67}                                                                          &  \\ \cline{1-3}
-		\begin{tabular}[c]{@{}c@{}}Report \\ Writing\end{tabular}               &                                                                                                   &                                                                                                   &  \\ \cline{1-3}
-		\begin{tabular}[c]{@{}c@{}}Procurement \\ of \\ Components\end{tabular} &                                                                                                   &                                                                                                   &  \\ \cline{1-3}
-		Fabrication                                                             &                                                                                                   &                                                                                                   &  \\ \cline{1-3}
-		\begin{tabular}[c]{@{}c@{}}Software\\ Development\end{tabular}          &                                                                                                   &                                                                                                   &  \\ \cline{1-3}
-		Testing                                                                 &                                                                                                   &                                                                                                   &  \\ \cline{1-3}
-	\end{tabular}
-\end{table}
+		\begin{table}[]
+			\begin{tabular}{|l|l|l|l}
+				\cline{1-3}
+				\textbf{Sl. No.} & \textbf{Item}                       & \textbf{Amount (Rs.)} &  \\ \cline{1-3}
+				1                & STM32 NUCLEO Development Board      & 3000                  &  \\ \cline{1-3}
+				2                & SMD soldering station               & 9000                  &  \\ \cline{1-3}
+				3                & Li-ion Cell (x2)                  & 1000                  &  \\ \cline{1-3}
+				4                & Regulated Multi-Output Power Supply & 5000                  &  \\ \cline{1-3}
+				5                & Solar Panel                         & 2000                    &  \\ \cline{1-3}
+				6                & Components                          & 8000         &  \\ \cline{1-3}
+			\end{tabular}
+		\end{table}
+		
+		
+		
+	\end{frame}
 	
 	
-\end{frame}
-
-
-
-%\begin{frame}[allowframebreaks]{References}
-%
-%\begin{thebibliography}{9}
-%	
-%		\bibitem[1]{p1}
-%Moraes, Caio Guilherme da Silva and Brockveld, Sergio Luis and Heldwein, Marcelo Lobo and Franca, André Stanzani and Vaccari, Anderson Silva and Waltrich, Gierri (2021)
-%\newblock Power Conversion Technologies for a Hybrid Energy Storage System in Diesel-Electric Locomotives
-%\newblock \emph{IEEE Transactions on Industrial Electronics}  vol. 68, no. 10, pp. 9081-9091.
-%
-%	 % Reduce the font size in the bibliography
-%
-%\end{thebibliography}
-%\end{frame}
-
-\begin{frame}
-
-
-\end{frame}
-%\end{frame}
-\end{document}
+	\begin{frame}{Budget Estimate: Fabrication cost}
+		\begin{table}[]
+			\begin{tabular}{|l|l|l|l}
+				\cline{1-3}
+				\textbf{Sl. No.} & \textbf{Item}        & \textbf{Amount (Rs.)} &  \\ \cline{1-3}
+				1                & PCB Printing         & 3000                    &  \\ \cline{1-3}
+				2                & SMD soldering        & 990                    &  \\ \cline{1-3}
+				3                & Inductor Fabrication & 1000                  &  \\ \cline{1-3}
+			\end{tabular}
+		\end{table}
+	\end{frame}
+	
+	
+	\section{Project Timeline}
+	\begin{frame}{Project Timeline}
+		
+		\begin{table}[]
+			\begin{tabular}{|c|l|l|l|l}
+				\cline{1-4}
+				\multicolumn{1}{|l|}{\textbf{Activity}}                      & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}October 3\textsuperscript{rd} \&\\  4\textsuperscript{th} week\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}November 1\textsuperscript{st} \&\\  2\textsuperscript{nd} week\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}November 3\textsuperscript{rd} \&\\  4\textsuperscript{th} week\end{tabular}}} &  \\ \cline{1-4}
+				\begin{tabular}[c]{@{}c@{}}Literature \\ Review\end{tabular} &  \cellcolor[HTML]{FD6864}                                                                         & \cellcolor[HTML]{FD6864}                                                                                                  &                                                                                                   &  \\ \cline{1-4}
+				\begin{tabular}[c]{@{}c@{}}Hardware \\ Design\end{tabular}   & \cellcolor[HTML]{FFCC67}                                                                         & \cellcolor[HTML]{FFCC67}                                                                          & \cellcolor[HTML]{FFCC67}                                                                          &  \\ \cline{1-4}
+				\begin{tabular}[c]{@{}c@{}}Report \\ Writing\end{tabular}    &                                                                                                  &                                                                                                   &                                                                                                   &  \\ \cline{1-4}
+			\end{tabular}
+		\end{table}
+		
+		
+		
+	\end{frame}
+	
+	
+	
+	\begin{frame}{Project Timeline}
+		
+		
+		
+		% Please add the following required packages to your document preamble:
+		% \usepackage[table,xcdraw]{xcolor}
+		% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+		\begin{table}[]
+			\begin{tabular}{|c|l|l|l|l|l|l|l}
+				\cline{1-7}
+				\multicolumn{1}{|l|}{\textbf{Activity}} &
+				\begin{tabular}[c]{@{}l@{}}Oct\\ 3\textsuperscript{rd} week\end{tabular} &
+				\begin{tabular}[c]{@{}l@{}}Oct \\ 4\textsuperscript{th} week\end{tabular} &
+				\begin{tabular}[c]{@{}l@{}}Nov \\ 1\textsuperscript{st} week\end{tabular} &
+				\begin{tabular}[c]{@{}l@{}}Nov \\ 2\textsuperscript{nd} week\end{tabular} &
+				\begin{tabular}[c]{@{}l@{}}Nov\\ 3\textsuperscript{rd} week\end{tabular} &
+				\begin{tabular}[c]{@{}l@{}}Nov \\ 4\textsuperscript{th} week\end{tabular} &
+				\\ \cline{1-7}
+				Literature Review &
+				\cellcolor[HTML]{1AEFB2} &
+				\cellcolor[HTML]{1AEFB2} &
+				\cellcolor[HTML]{1AEFB2} &
+				\cellcolor[HTML]{1AEFB2} &
+				\cellcolor[HTML]{1AEFB2} &
+				\cellcolor[HTML]{1AEFB2} &
+				\\ \cline{1-7}
+				Hardware Design &
+				&
+				&
+				\cellcolor[HTML]{1AEFB2} &
+				\cellcolor[HTML]{1AEFB2} &
+				\cellcolor[HTML]{1AEFB2} &
+				\cellcolor[HTML]{1AEFB2} &
+				\\ \cline{1-7}
+				Report Writing &
+				&
+				&
+				&
+				\cellcolor[HTML]{1AEFB2} &
+				\cellcolor[HTML]{1AEFB2} &
+				\cellcolor[HTML]{1AEFB2} &
+				\\ \cline{1-7}
+				Component Procurement &
+				&
+				&
+				\cellcolor[HTML]{FFFFFF} &
+				\cellcolor[HTML]{FFFFFF} &
+				&
+				&
+				\\ \cline{1-7}
+				Fabrication &
+				&
+				&
+				&
+				&
+				&
+				&
+				\\ \cline{1-7}
+				Software Development &
+				&
+				&
+				&
+				&
+				&
+				&
+				\\ \cline{1-7}
+				Testing &
+				&
+				&
+				&
+				&
+				&
+				&
+				\\ \cline{1-7}
+			\end{tabular}
+		\end{table}
+		
+		
+	\end{frame}
+	
+	
+	
+	%\begin{frame}[allowframebreaks]{References}
+	%
+	%\begin{thebibliography}{9}
+	%	
+	%		\bibitem[1]{p1}
+	%Moraes, Caio Guilherme da Silva and Brockveld, Sergio Luis and Heldwein, Marcelo Lobo and Franca, André Stanzani and Vaccari, Anderson Silva and Waltrich, Gierri (2021)
+	%\newblock Power Conversion Technologies for a Hybrid Energy Storage System in Diesel-Electric Locomotives
+	%\newblock \emph{IEEE Transactions on Industrial Electronics}  vol. 68, no. 10, pp. 9081-9091.
+	%
+	%	 % Reduce the font size in the bibliography
+	%
+	%\end{thebibliography}
+	%\end{frame}
+	
+	\begin{frame}
+		
+		
+	\end{frame}
+	%\end{frame}
+\end{document} 

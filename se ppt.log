@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.10.13)  8 NOV 2022 15:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.10.13)  9 NOV 2022 10:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1124,7 +1124,7 @@ Overfull \hbox (15.0627pt too wide) in paragraph at lines 181--181
  <./cubes1.png>] [5
 
 ]
-<blk diag.png, id=206, 3820.2725pt x 1773.62625pt>
+<blk diag.png, id=208, 3820.2725pt x 1773.62625pt>
 File: blk diag.png Graphic file (type png)
 <use blk diag.png>
 Package pdftex.def Info: blk diag.png  used on input line 208.
@@ -1146,7 +1146,8 @@ Overfull \vbox (7.78381pt too high) detected at line 208
 ] [11
 
 ]
-Overfull \vbox (1.1315pt too high) detected at line 335
+Overfull \hbox (16.88008pt too wide) in paragraph at lines 391--391
+ [] 
  []
 
 [12
@@ -1168,22 +1169,25 @@ Package rerunfilecheck Info: File `"se ppt".out' has not changed.
 (rerunfilecheck)             Checksum: A86E56B0B545E1A02A4F6B52E8FF0CC2;803.
  ) 
 Here is how much of TeX's memory you used:
- 28373 strings out of 480247
- 579837 string characters out of 5896150
- 841341 words of memory out of 5000000
- 45679 multiletter control sequences out of 15000+600000
- 505102 words of font info for 55 fonts, out of 8000000 for 9000
+ 28383 strings out of 480247
+ 580091 string characters out of 5896150
+ 846341 words of memory out of 5000000
+ 45689 multiletter control sequences out of 15000+600000
+ 507870 words of font info for 56 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 128i,16n,122p,423b,574s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,19n,122p,504b,574s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/s
-hare/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/publi
-c/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on "se ppt.pdf" (13 pages, 480015 bytes).
+ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share
+/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm
+/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/
+fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/
+type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb
+>
+Output written on "se ppt.pdf" (13 pages, 507061 bytes).
 PDF statistics:
- 451 PDF objects out of 1000 (max. 8388607)
- 404 compressed objects within 5 object streams
+ 463 PDF objects out of 1000 (max. 8388607)
+ 412 compressed objects within 5 object streams
  36 named destinations out of 1000 (max. 500000)
  145 words of extra memory for PDF output out of 10000 (max. 10000000)
 
