@@ -1,3 +1,4 @@
+
 \PassOptionsToPackage{table}{xcolor}
 \documentclass[aspectratio=169]{beamer}
 \hypersetup{pdfpagemode=FullScreen}
@@ -9,9 +10,10 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
+\usepackage{gensymb}
 %\usetheme{CambridgeUS}
 %\usepackage[table,xcdraw]{xcolor}
-\usepackage{pgfgantt}
+%\usepackage{pgfgantt}
 %\usetheme{Berlin}
 %\usetheme{Montpellier}
 \usetheme{Boadilla}
@@ -124,7 +126,7 @@
 	}
 	\begin{frame}[plain]
 		\maketitle
-		\center{Guided by: Prof. Dinesh Gopinath}
+		\center{Guided by: Dr.Dinesh Gopinath}
 		%	\center{{SEMINAR PRESENTATION}}
 	\end{frame}
 	
@@ -179,7 +181,7 @@
 		\end{minipage}
 		
 	\end{frame}
-
+	
 	
 	\begin{frame}
 		\frametitle{Project Outline (Contd.)}
@@ -194,47 +196,34 @@
 	\end{frame}
 	
 	
-		\section{Literature Review}
-		\begin{frame}
-		\frametitle{Literature Review}
-
-				
-			Power Generation and Storage:
-			\begin{itemize}
-			\item  Solar cells and batteries used for generation and storage of power respectively
-			\item Batteries supply power during absence of solar energy
-			\item Li-ion batteries are preferred to Ni-MH\cite{p4}
-		\end{itemize}
-	
-	
-		Power Conditioning:
-	\begin{itemize}
-		\item DC-DC converters are preferred to linear voltage regulators to reduce losses
-		\item Peak power transfer is preferred to direct power transfer for solar output\cite{p2}
-		\item Trickle charge\cite{p3} method is used to charge the batteries
-		\item 5V and 3.3V DC-DC convertors outputs regulated voltage to their respective DC	 buses
-	\end{itemize}
-	\end{frame}
-	\begin{frame}
-		\frametitle{Literature Review (Contd.)}
-		
-				Power Distribution:
-		\begin{itemize}
-			\item Distributed EPS scheme\cite{p1} is preferred to increase flexibility
-			\item 5V and 3.3V DC-DC convertors outputs regulated voltage to their respective DC	buses
-			
-		\end{itemize}
-		
-		
-Power Monitoring and Converter control:
-	\begin{itemize}
-	\item The microcontroller monitors the voltage levels and currents in the circuit and DC buses
-	\item It is responsible for PWM generation, over-current protection and logging
-	\item STM 32 microcontroller is selected due to it's low power usage and radiation tolerance.
-
-\end{itemize}
-
-
+	\section{Literature Review}
+	\begin{frame}{Literature Review}
+		\begin{table}[]
+			\small  
+			\begin{tabular}{|l|l|l|l|}
+				\hline
+				\textbf{S. No} &
+				\multicolumn{1}{c|}{\textbf{Title}} &
+				\multicolumn{1}{c|}{\textbf{Author}} &
+				\multicolumn{1}{c|}{\textbf{Features}} \\ \hline
+				1 &
+				\begin{tabular}[c]{@{}l@{}}A Review of Battery Technology\\in CubeSats and Small Satellites.\end{tabular} &
+				\begin{tabular}[c]{@{}l@{}}Knap, Vaclav \& Vestergaard,\\ Lars \& Stroe, Daniel-Ioan\end{tabular} &
+				\begin{tabular}[c]{@{}l@{}}\\Solar cells with Li-ion\\ batteries for storage is\\ preferred.\end{tabular} \\ \hline
+				2 &
+				\begin{tabular}[c]{@{}l@{}}Comparison of Peak Power\\ Tracking Based Electric\\ Power System Architecture\\ for CubeSats.\end{tabular} &
+				\begin{tabular}[c]{@{}l@{}}A. Edpuganti, V. Khadkikar,\\ H. Zeineldin, M. S. E. Moursi\\ and M. Al Hosani\end{tabular} &
+				\begin{tabular}[c]{@{}l@{}}Peak power transfer\\ is preferred over\\ direct power transfer.\end{tabular} \\ \hline
+				3 &
+				\begin{tabular}[c]{@{}l@{}}Review on Charging Techniques\\ of a Li-ion Battery.\end{tabular} &
+				E. Ayoub and N. Karami &
+				Charging at 0 - 45\degree C \\ \hline
+				4 &
+				\begin{tabular}[c]{@{}l@{}}Centralized, Distributed and\\ Module-Integrated Electric Power\\System Schemes in CubeSats:\\ Performance Assessment.\end{tabular} &
+				\begin{tabular}[c]{@{}l@{}}B. Hussein, A. M. Massoud \\ and T. Khattab\end{tabular} &
+				\begin{tabular}[c]{@{}l@{}}Distributed EPS\\ scheme is preferred.\end{tabular} \\ \hline
+			\end{tabular}
+		\end{table}
 	\end{frame}
 	
 	
@@ -262,7 +251,7 @@ Power Monitoring and Converter control:
 		\begin{itemize}
 			
 			\item Identifying the power requirements
-		\item Architecture design and topology selection
+			\item Architecture design and topology selection
 			\item Forming Specifications
 			
 			\item Design and simulation
@@ -336,57 +325,72 @@ Power Monitoring and Converter control:
 	
 	
 	\section{Project Timeline}
-
+	
 	
 	
 	
 	\begin{frame}{Project Timeline}
 		
-			\begin{figure}[h]
-			\centering
-			\includegraphics[width=0.9\textwidth]{tl.png}
-%			\caption{CubeSat EPS Architecture}
-			\label{fig:timel}
-		\end{figure}
-
+		% Please add the following required packages to your document preamble:
+		% \usepackage[table,xcdraw]{xcolor}
+		% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+		\begin{table}[]
+			\begin{tabular}{|l|l|l|l|l|l|}
+				\hline
+				\textbf{Activity} &
+				\begin{tabular}[c]{@{}l@{}}Oct \\   week\\     3-4\end{tabular} &
+				\begin{tabular}[c]{@{}l@{}}Nov \\   week\\     1-2\end{tabular} &
+				\begin{tabular}[c]{@{}l@{}}Nov \\   week\\     3-4\end{tabular} &
+				\begin{tabular}[c]{@{}l@{}}Dec \\   week\\     1-2\end{tabular} &
+				\begin{tabular}[c]{@{}l@{}}Dec \\   week\\     3-4\end{tabular} \\ \hline
+				Literature Review     & \cellcolor[HTML]{93C47D} & \cellcolor[HTML]{93C47D} & \cellcolor[HTML]{93C47D} &                          &                          \\ \hline
+				Hardware Design       &                          & \cellcolor[HTML]{93C47D} & \cellcolor[HTML]{93C47D} & \cellcolor[HTML]{93C47D} &                          \\ \hline
+				Report Writing        &                          &                          &                          & \cellcolor[HTML]{93C47D} & \cellcolor[HTML]{93C47D} \\ \hline
+				Component Procurement &                          &                          &                          & \cellcolor[HTML]{93C47D} &                          \\ \hline
+				Fabrication           &                          &                          &                          & \cellcolor[HTML]{93C47D} & \cellcolor[HTML]{93C47D} \\ \hline
+				Software Development  &                          &                          &                          & \cellcolor[HTML]{93C47D} & \cellcolor[HTML]{93C47D} \\ \hline
+				Testing               &                          &                          &                          &                          & \cellcolor[HTML]{93C47D} \\ \hline
+			\end{tabular}
+		\end{table}
+		
 	\end{frame}
 	
 	
 	\section{References}
 	\begin{frame}[allowframebreaks]{References}
-	
-	\begin{thebibliography}{9}
+		
+		\begin{thebibliography}{9}
 			
-					\bibitem[1]{p4}
-		Knap, Vaclav \& Vestergaard, Lars \& Stroe, Daniel-Ioan (2020	)
-		\newblock A Review of Battery Technology in CubeSats
-		and Small Satellite Solutions
-		\newblock \emph{Energies, vol. 13}	
-				\bibitem[2]{p2}
+			\bibitem[1]{p4}
+			Knap, Vaclav \& Vestergaard, Lars \& Stroe, Daniel-Ioan (2020	)
+			\newblock A Review of Battery Technology in CubeSats
+			and Small Satellite Solutions
+			\newblock \emph{Energies, vol. 13}	
+			\bibitem[2]{p2}
 			A. Edpuganti, V. Khadkikar, H. Zeineldin, M. S. E. Moursi and M. Al Hosani (2021)
 			\newblock Comparison of Peak Power Tracking Based Electric Power System Architectures for CubeSats
 			\newblock \emph{IEEE Transactions on Industry Applications, vol. 57, no. 3, pp. 2758-2768, May-June 2021}
 			
-		\bibitem[3]{p3}
-		E. Ayoub and N. Karami 
-		\newblock Review on the charging techniques of a Li-Ion battery
-		\newblock \emph{Third International Conference on Technological Advances in Electrical, Electronics and Computer Engineering (TAEECE), 2015, pp. 50-55}
-		
-	
-		
+			\bibitem[3]{p3}
+			E. Ayoub and N. Karami 
+			\newblock Review on the charging techniques of a Li-Ion battery
+			\newblock \emph{Third International Conference on Technological Advances in Electrical, Electronics and Computer Engineering (TAEECE), 2015, pp. 50-55}
+			
+			
+			
 			\bibitem[4]{p1}
-	B. Hussein, A. M. Massoud and T. Khattab (2022)
-	\newblock Centralized, Distributed, and Module-Integrated Electric Power System Schemes in CubeSats: Performance Assessment
-	\newblock \emph{ IEEE Access, vol. 10, pp. 55396-55407}
-	
-	
-
-
-
-
-
-
-	\end{thebibliography}
+			B. Hussein, A. M. Massoud and T. Khattab (2022)
+			\newblock Centralized, Distributed, and Module-Integrated Electric Power System Schemes in CubeSats: Performance Assessment
+			\newblock \emph{ IEEE Access, vol. 10, pp. 55396-55407}
+			
+			
+			
+			
+			
+			
+			
+			
+		\end{thebibliography}
 	\end{frame}
 	
 	\begin{frame}
